@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta content="yes" name="apple-mobile-web-app-capable" />
 <meta content="black" name="apple-mobile-web-app-status-bar-style" />
@@ -10,14 +10,14 @@
 <meta name="keywords" content="">
 <meta name="description" content="欢迎访问[Easy]的个人博客">
 <meta name="author" content="kveln">
-<title>搜索 - Easy</title>
+<title>IMSkye 壮壮公主 | Easy</title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css">
 <link href="https://cdn.bootcss.com/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
 <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 <link
   href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
   rel='stylesheet' type='text/css'>
-<link rel="alternate" type="application/rss+xml" title="搜索 - Easy » Feed"
+<link rel="alternate" type="application/rss+xml" title="IMSkye 壮壮公主 | Easy » Feed"
   href="https://H-Easy.github.io/atom.xml">
 <link rel="stylesheet"
   href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.15.10/build/styles/androidstudio.min.css">
@@ -30,14 +30,67 @@
 
 <script>hljs.initHighlightingOnLoad();</script>
 
-    <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.0/dist/fuse.basic.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/ejs@3.1.3/ejs.min.js"></script>
-    <script src="https://H-Easy.github.io/media/gridea-search/gridea-search.js"></script>
-    <script src="https://H-Easy.github.io/media/gridea-search/result-template.ejs" type="text/ejs"></script>
+  <meta property="og:description" content="IMSkye 壮壮公主" />
+  <meta property="og:url" content="https://H-Easy.github.io/post/imskye-zhuang-zhuang-gong-zhu/" />
+  <meta property="og:locale" content="zh-CN" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Easy" />
+  <!-- <script src="../assets/styles/scripts/tocScript.js"></script> -->
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="https://H-Easy.github.io">Easy</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+      data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+      aria-label="Toggle navigation">
+      Menu
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        
+        <li class="nav-item">
+          
+          <a class="nav-link" href="/">首页</a>
+          
+        </li>
+        
+        <li class="nav-item">
+          
+          <a class="nav-link" href="/archives">归档</a>
+          
+        </li>
+        
+        <li class="nav-item">
+          
+          <a class="nav-link" href="/tags">标签</a>
+          
+        </li>
+        
+        <li class="nav-item">
+          
+          <a class="nav-link" href="/post/about">关于</a>
+          
+        </li>
+        
+        <li class="nav-item">
+          <div class="gridea-search-container">
+            <form id="gridea-search-form" style="position: relative" data-update="1621520241351"
+              action="/search/index.html">
+              <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
+              <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
+            </form>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  <!-- Page Header -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
   <div class="container">
     <a class="navbar-brand" href="https://H-Easy.github.io">Easy</a>
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
@@ -94,9 +147,16 @@
         
           <!-- 没Title为其他页面Header -->
           
-            <!-- 其他页面（archives、tags、about...）Header -->
-            <div class="sub-site-heading">
-              <h1 class="tag-tl">Search</h1>
+            <!-- 没Title并且有headerType为Post：文章Header -->
+            <div class="post-heading">
+              <span class="tags">
+                
+              </span>
+              <h1>IMSkye 壮壮公主</h1>
+              <span class="meta">
+                Posted on
+                2021-05-20，0 min read
+              </span>
             </div>
           
         
@@ -104,18 +164,44 @@
     </div>
   </div>
 </header>
-    <div class="main gt-bg-theme-color-first">
-        <div id="gridea-search-result" data-update="1621520241351">
-            <div class="searching" style="font-size: 18px; margin-top: 50px;">
-                <i class="fa fa-sync-alt fa-spin"></i>&nbsp;&nbsp;搜索中......
-                <br><br>
-                <span style="font-size: 65%; color: #aaa">第一次搜索可能需要耗费较长时间构建索引，请耐心等待...</span>
-            </div>
-            <div class="no-result" style="display:none; font-size: 20px; margin-top: 50px;">
-                <i class="fa fa-exclamation-triangle"></i>&nbsp;&nbsp;未搜索到相关文章，请更换关键词
-            </div>
+  <!-- Post Content -->
+  <article id="post-content-article">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto post-content-container">
+          
+          <img class="post-feature-header-image" src="https://H-Easy.github.io/post-images/imskye-zhuang-zhuang-gong-zhu.jpg" alt="封面图">
+          </img>
+          
+          <figure data-type="image" tabindex="1"><img src="https://H-Easy.github.io/post-images/1621520158122.jpg" alt="" loading="lazy"></figure>
+<!-- more -->
+<figure data-type="image" tabindex="2"><img src="https://H-Easy.github.io/post-images/1621520214502.jpg" alt="" loading="lazy"></figure>
+<!-- more -->
+<figure data-type="image" tabindex="3"><img src="https://H-Easy.github.io/post-images/1621520229808.jpg" alt="" loading="lazy"></figure>
+<!-- more -->
+<figure data-type="image" tabindex="4"><img src="https://H-Easy.github.io/post-images/1621520234455.jpg" alt="" loading="lazy"></figure>
+
+          <div class="toc-container"></div>
+          
+          <hr />
+          <p class="next-post">下一篇：
+            <a href="https://H-Easy.github.io/post/iu/">
+              <span class="post-title">
+                IU&rarr;
+              </span>
+            </a>
+          </p>
+          
+          <div class="comment" style="text-align: center;">
+            
+
+            
+            
+          </div>
         </div>
-        <!-- Footer -->
+      </div>
+  </article>
+  <!-- Footer -->
   <footer>
     <div class="container">
       <div class="row">
@@ -184,9 +270,8 @@
       }
     }
   })(this));</script>
-    </div>
-    
-    <div id="landlord-parent">
+  
+  <div id="landlord-parent">
     <div id="landlord">
         <div class="message" style="opacity:0"></div>
         <canvas id="live2d" width="240" height="250" class="live2d"></canvas>
@@ -226,7 +311,8 @@
         };
     }
 </script>
-    
+  
+  <script src="https://H-Easy.github.io/media/scripts/tocScript.js"></script>
 </body>
 
 </html>
