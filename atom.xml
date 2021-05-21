@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://h-easy.github.io</id>
     <title>Easy</title>
-    <updated>2021-05-21T14:13:47.269Z</updated>
+    <updated>2021-05-21T14:20:21.309Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://h-easy.github.io"/>
     <link rel="self" href="https://h-easy.github.io/atom.xml"/>
@@ -53,23 +53,6 @@
 <img src="https://h-easy.github.io/post-images/1621605193763.png" alt="" loading="lazy"><br>
 <strong>I'm so sick of it.</strong><br>
 <strong>我受不了那些话</strong></p>
-<!-- more -->
-<hr>
-<p><strong>小妇人中经典句子与翻译</strong></p>
-<p>I am not afraid of storms,for I am learning how to sail my ship.</p>
-<p>我不害怕风暴，因为我是学习如何驾驶我的船。</p>
-<p>Love covers a multitude of sins…</p>
-<p>爱覆盖了许多的罪…”</p>
-<p>such hours are beautiful to live,but very hard to describe…</p>
-<p>时间是如此美丽的生活，但很难描述…</p>
-<p>I don't like favors; they oppress and make me fell like a slave.I'd ratherdo everything for myself,and be perfectly independent.</p>
-<p>我不喜欢支持；他们欺压，让我像一个奴隶。我宁愿为自己做任何事情，是完全独立的。</p>
-<p>Simple,sincere people seldom speak much of their piety; it shows itself in acts rather than words,and has more influence than homilies or protestations.</p>
-<p>简单，真诚的人很少说话的虔诚；它显示在行为本身，而不是单词，和有更多的影响比说教或抗议。</p>
-<!-- more -->
-<hr>
-<p>罗南美如画<br>
-<img src="https://h-easy.github.io/post-images/1621606222630.webp" alt="" loading="lazy"></p>
 ]]></content>
     </entry>
     <entry>
@@ -78,11 +61,6 @@
         <link href="https://h-easy.github.io/post/imskye-zhuang-zhuang-gong-zhu/">
         </link>
         <updated>2021-05-20T14:08:29.000Z</updated>
-        <content type="html"><![CDATA[<!-- more -->
-<figure data-type="image" tabindex="1"><img src="https://h-easy.github.io/post-images/1621565304244.jpg" alt="" loading="lazy"></figure>
-<!-- more -->
-<figure data-type="image" tabindex="2"><img src="https://h-easy.github.io/post-images/1621565308334.jpg" alt="" loading="lazy"></figure>
-]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[IU 李知恩]]></title>
@@ -92,15 +70,7 @@
         <updated>2021-05-20T13:22:03.000Z</updated>
         <summary type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://H-Easy.github.io/post-images/1621516935705.jpg" alt="" loading="lazy"></figure>
 ]]></summary>
-        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://h-easy.github.io/post-images/1621516935705.jpg" alt="" loading="lazy"></figure>
-<!-- more -->
-<figure data-type="image" tabindex="2"><img src="https://h-easy.github.io/post-images/1621516960800.jpg" alt="" loading="lazy"></figure>
-<!-- more -->
-<figure data-type="image" tabindex="3"><img src="https://h-easy.github.io/post-images/1621516972873.jpg" alt="" loading="lazy"></figure>
-<!-- more -->
-<figure data-type="image" tabindex="4"><img src="https://h-easy.github.io/post-images/1621516976779.jpg" alt="" loading="lazy"></figure>
-<!-- more -->
-<figure data-type="image" tabindex="5"><img src="https://h-easy.github.io/post-images/1621516994722.png" alt="" loading="lazy"></figure>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://H-Easy.github.io/post-images/1621516935705.jpg" alt="" loading="lazy"></figure>
 ]]></content>
     </entry>
 </feed>
