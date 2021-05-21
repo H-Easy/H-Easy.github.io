@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://h-easy.github.io</id>
     <title>Easy</title>
-    <updated>2021-05-20T14:48:35.074Z</updated>
+    <updated>2021-05-21T02:10:59.148Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://h-easy.github.io"/>
     <link rel="self" href="https://h-easy.github.io/atom.xml"/>
@@ -16,15 +16,11 @@
         <link href="https://h-easy.github.io/post/imskye-zhuang-zhuang-gong-zhu/">
         </link>
         <updated>2021-05-20T14:08:29.000Z</updated>
-        <summary type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://H-Easy.github.io/post-images/1621520158122.jpg" alt="" loading="lazy"></figure>
+        <summary type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://h-easy.github.io/post-images/1621562975642.jpg" alt="" loading="lazy"></figure>
 ]]></summary>
-        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://h-easy.github.io/post-images/1621520158122.jpg" alt="" loading="lazy"></figure>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://h-easy.github.io/post-images/1621562975642.jpg" alt="" loading="lazy"></figure>
 <!-- more -->
-<figure data-type="image" tabindex="2"><img src="https://h-easy.github.io/post-images/1621520214502.jpg" alt="" loading="lazy"></figure>
-<!-- more -->
-<figure data-type="image" tabindex="3"><img src="https://h-easy.github.io/post-images/1621520229808.jpg" alt="" loading="lazy"></figure>
-<!-- more -->
-<figure data-type="image" tabindex="4"><img src="https://h-easy.github.io/post-images/1621520234455.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="2"><img src="https://h-easy.github.io/post-images/1621562983410.jpg" alt="" loading="lazy"></figure>
 ]]></content>
     </entry>
     <entry>
