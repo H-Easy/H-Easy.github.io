@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta content="yes" name="apple-mobile-web-app-capable" />
 <meta content="black" name="apple-mobile-web-app-status-bar-style" />
@@ -10,14 +10,14 @@
 <meta name="keywords" content="">
 <meta name="description" content="欢迎访问[Easy]的个人博客">
 <meta name="author" content="kveln">
-<title>搜索 - Easy</title>
+<title>小妇人 Little Women | Easy</title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css">
 <link href="https://cdn.bootcss.com/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
 <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 <link
   href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
   rel='stylesheet' type='text/css'>
-<link rel="alternate" type="application/rss+xml" title="搜索 - Easy » Feed"
+<link rel="alternate" type="application/rss+xml" title="小妇人 Little Women | Easy » Feed"
   href="https://h-easy.github.io/atom.xml">
 <link rel="stylesheet"
   href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.15.10/build/styles/androidstudio.min.css">
@@ -30,14 +30,67 @@
 
 <script>hljs.initHighlightingOnLoad();</script>
 
-    <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.0/dist/fuse.basic.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/ejs@3.1.3/ejs.min.js"></script>
-    <script src="https://h-easy.github.io/media/gridea-search/gridea-search.js"></script>
-    <script src="https://h-easy.github.io/media/gridea-search/result-template.ejs" type="text/ejs"></script>
+  <meta property="og:description" content="小妇人 Little Women" />
+  <meta property="og:url" content="https://h-easy.github.io/post/xiao-fu-ren-little-women/" />
+  <meta property="og:locale" content="zh-CN" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Easy" />
+  <!-- <script src="../assets/styles/scripts/tocScript.js"></script> -->
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="https://h-easy.github.io">Easy</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+      data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+      aria-label="Toggle navigation">
+      Menu
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        
+        <li class="nav-item">
+          
+          <a class="nav-link" href="/">首页</a>
+          
+        </li>
+        
+        <li class="nav-item">
+          
+          <a class="nav-link" href="/archives">归档</a>
+          
+        </li>
+        
+        <li class="nav-item">
+          
+          <a class="nav-link" href="/tags">标签</a>
+          
+        </li>
+        
+        <li class="nav-item">
+          
+          <a class="nav-link" href="/post/about">关于</a>
+          
+        </li>
+        
+        <li class="nav-item">
+          <div class="gridea-search-container">
+            <form id="gridea-search-form" style="position: relative" data-update="1621606404221"
+              action="/search/index.html">
+              <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
+              <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
+            </form>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  <!-- Page Header -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
   <div class="container">
     <a class="navbar-brand" href="https://h-easy.github.io">Easy</a>
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
@@ -94,9 +147,18 @@
         
           <!-- 没Title为其他页面Header -->
           
-            <!-- 其他页面（archives、tags、about...）Header -->
-            <div class="sub-site-heading">
-              <h1 class="tag-tl">Search</h1>
+            <!-- 没Title并且有headerType为Post：文章Header -->
+            <div class="post-heading">
+              <span class="tags">
+                
+                <a href="https://h-easy.github.io/tag/hhXA0pYx1/" class="tag">电影</a>
+                
+              </span>
+              <h1>小妇人 Little Women</h1>
+              <span class="meta">
+                Posted on
+                2021-05-21，2 min read
+              </span>
             </div>
           
         
@@ -104,18 +166,72 @@
     </div>
   </div>
 </header>
-    <div class="main gt-bg-theme-color-first">
-        <div id="gridea-search-result" data-update="1621606404221">
-            <div class="searching" style="font-size: 18px; margin-top: 50px;">
-                <i class="fa fa-sync-alt fa-spin"></i>&nbsp;&nbsp;搜索中......
-                <br><br>
-                <span style="font-size: 65%; color: #aaa">第一次搜索可能需要耗费较长时间构建索引，请耐心等待...</span>
-            </div>
-            <div class="no-result" style="display:none; font-size: 20px; margin-top: 50px;">
-                <i class="fa fa-exclamation-triangle"></i>&nbsp;&nbsp;未搜索到相关文章，请更换关键词
-            </div>
+  <!-- Post Content -->
+  <article id="post-content-article">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto post-content-container">
+          
+          <img class="post-feature-header-image" src="https://h-easy.github.io/post-images/xiao-fu-ren-little-women.png" alt="封面图">
+          </img>
+          
+          <p><img src="https://h-easy.github.io/post-images/1621603842167.png" alt="" loading="lazy"><br>
+<strong>Women</strong><br>
+<strong>女性</strong><br>
+<img src="https://h-easy.github.io/post-images/1621604642457.png" alt="" loading="lazy"><br>
+<strong>They have minds, and they have souls as well as just hearts</strong><br>
+<strong>她们有思想，有灵魂，也有心灵</strong><br>
+<img src="https://h-easy.github.io/post-images/1621604757917.png" alt="" loading="lazy"><br>
+<strong>And they've got ambition，and they've got talent as well as just beuty.</strong><br>
+<strong>她们有野心，有天赋，也有美貌</strong><br>
+<img src="https://h-easy.github.io/post-images/1621605072769.png" alt="" loading="lazy"><br>
+<strong>AndImso sick ofpeople saying</strong><br>
+<strong>我受够了人们总是说</strong><br>
+<img src="https://h-easy.github.io/post-images/1621605144238.png" alt="" loading="lazy"></p>
+<p><strong>that love is just all a woman is fit for</strong><br>
+<strong>女人只需要谈恋爱然后结婚生子</strong><br>
+<img src="https://h-easy.github.io/post-images/1621605193763.png" alt="" loading="lazy"><br>
+<strong>I'm so sick of it.</strong><br>
+<strong>我受不了那些话</strong></p>
+<!-- more -->
+<hr>
+<p><strong>小妇人中经典句子与翻译</strong></p>
+<p>I am not afraid of storms,for I am learning how to sail my ship.</p>
+<p>我不害怕风暴，因为我是学习如何驾驶我的船。</p>
+<p>Love covers a multitude of sins…</p>
+<p>爱覆盖了许多的罪…”</p>
+<p>such hours are beautiful to live,but very hard to describe…</p>
+<p>时间是如此美丽的生活，但很难描述…</p>
+<p>I don't like favors; they oppress and make me fell like a slave.I'd ratherdo everything for myself,and be perfectly independent.</p>
+<p>我不喜欢支持；他们欺压，让我像一个奴隶。我宁愿为自己做任何事情，是完全独立的。</p>
+<p>Simple,sincere people seldom speak much of their piety; it shows itself in acts rather than words,and has more influence than homilies or protestations.</p>
+<p>简单，真诚的人很少说话的虔诚；它显示在行为本身，而不是单词，和有更多的影响比说教或抗议。</p>
+<!-- more -->
+<hr>
+<p>罗南美如画<br>
+<img src="https://h-easy.github.io/post-images/1621606222630.webp" alt="" loading="lazy"></p>
+
+          <div class="toc-container"></div>
+          
+          <hr />
+          <p class="next-post">下一篇：
+            <a href="https://h-easy.github.io/post/imskye-zhuang-zhuang-gong-zhu/">
+              <span class="post-title">
+                IMSkye 壮壮公主&rarr;
+              </span>
+            </a>
+          </p>
+          
+          <div class="comment" style="text-align: center;">
+            
+
+            
+            
+          </div>
         </div>
-        <!-- Footer -->
+      </div>
+  </article>
+  <!-- Footer -->
   <footer>
     <div class="container">
       <div class="row">
@@ -184,9 +300,8 @@
       }
     }
   })(this));</script>
-    </div>
-    
-    <div id="landlord-parent">
+  
+  <div id="landlord-parent">
     <div id="landlord">
         <div class="message" style="opacity:0"></div>
         <canvas id="live2d" width="240" height="250" class="live2d"></canvas>
@@ -226,7 +341,8 @@
         };
     }
 </script>
-    
+  
+  <script src="https://h-easy.github.io/media/scripts/tocScript.js"></script>
 </body>
 
 </html>
