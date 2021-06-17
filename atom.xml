@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://H-easy.github.io</id>
+    <id>https://h-easy.github.io</id>
     <title>Easy</title>
-    <updated>2021-06-17T09:07:56.530Z</updated>
+    <updated>2021-06-17T09:10:02.539Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://H-easy.github.io"/>
-    <link rel="self" href="https://H-easy.github.io/atom.xml"/>
+    <link rel="alternate" href="https://h-easy.github.io"/>
+    <link rel="self" href="https://h-easy.github.io/atom.xml"/>
     <subtitle>海阔凭鱼跃，天高任鸟飞。</subtitle>
-    <logo>https://H-easy.github.io/images/avatar.png</logo>
-    <icon>https://H-easy.github.io/favicon.ico</icon>
+    <logo>https://h-easy.github.io/images/avatar.png</logo>
+    <icon>https://h-easy.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Easy</rights>
     <entry>
         <title type="html"><![CDATA[随机2021-06-17]]></title>
-        <id>https://H-easy.github.io/post/sui-ji-2021-06-17/</id>
-        <link href="https://H-easy.github.io/post/sui-ji-2021-06-17/">
+        <id>https://h-easy.github.io/post/sui-ji-2021-06-17/</id>
+        <link href="https://h-easy.github.io/post/sui-ji-2021-06-17/">
         </link>
         <updated>2021-06-17T08:50:00.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[随记 2021-06-12]]></title>
-        <id>https://H-easy.github.io/post/sui-ji/</id>
-        <link href="https://H-easy.github.io/post/sui-ji/">
+        <id>https://h-easy.github.io/post/sui-ji/</id>
+        <link href="https://h-easy.github.io/post/sui-ji/">
         </link>
         <updated>2021-06-12T12:43:57.000Z</updated>
         <summary type="html"><![CDATA[<p><strong>你太年轻了太理想主义了， 你以为每个问题都能找到答案， 然而有些问题根本没有答案。 这个世界太精彩了，我将永远为它着迷。</strong><br>
@@ -32,8 +32,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[小妇人 Little Women]]></title>
-        <id>https://H-easy.github.io/post/xiao-fu-ren-little-women/</id>
-        <link href="https://H-easy.github.io/post/xiao-fu-ren-little-women/">
+        <id>https://h-easy.github.io/post/xiao-fu-ren-little-women/</id>
+        <link href="https://h-easy.github.io/post/xiao-fu-ren-little-women/">
         </link>
         <updated>2021-05-21T13:09:26.000Z</updated>
         <summary type="html"><![CDATA[<p><strong>Women</strong><br>
@@ -65,15 +65,15 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[IMSkye 壮壮公主]]></title>
-        <id>https://H-easy.github.io/post/imskye-zhuang-zhuang-gong-zhu/</id>
-        <link href="https://H-easy.github.io/post/imskye-zhuang-zhuang-gong-zhu/">
+        <id>https://h-easy.github.io/post/imskye-zhuang-zhuang-gong-zhu/</id>
+        <link href="https://h-easy.github.io/post/imskye-zhuang-zhuang-gong-zhu/">
         </link>
         <updated>2021-05-20T14:08:29.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[IU 李知恩]]></title>
-        <id>https://H-easy.github.io/post/iu/</id>
-        <link href="https://H-easy.github.io/post/iu/">
+        <id>https://h-easy.github.io/post/iu/</id>
+        <link href="https://h-easy.github.io/post/iu/">
         </link>
         <updated>2021-05-20T13:22:03.000Z</updated>
         <summary type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://H-Easy.github.io/post-images/1621516935705.jpg" alt="" loading="lazy"></figure>
