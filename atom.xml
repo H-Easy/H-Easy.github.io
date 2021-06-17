@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://h-easy.github.io/</id>
     <title>Easy</title>
-    <updated>2021-06-17T09:46:13.811Z</updated>
+    <updated>2021-06-17T10:03:13.998Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://h-easy.github.io/"/>
     <link rel="self" href="https://h-easy.github.io/atom.xml"/>
@@ -18,12 +18,12 @@
         <updated>2021-06-17T08:50:00.000Z</updated>
         <summary type="html"><![CDATA[<p><strong>Stray birds of summer come to my window to sing and fly away.</strong><br>
 <strong>And yellowleaves of autumn,which have no songs,flutter and fall there with a sigh</strong><br>
-<strong>夏天的飞鸟，飞到我窗前唱歌，又飞去了。</strong><br>
+<strong>夏天的飞鸟，飞到我的窗前唱歌，又飞去了。</strong><br>
 <strong>秋天的黄叶，它们没有什么可唱，只叹息一声，飞落在那里。</strong></p>
 ]]></summary>
         <content type="html"><![CDATA[<p><strong>Stray birds of summer come to my window to sing and fly away.</strong><br>
 <strong>And yellowleaves of autumn,which have no songs,flutter and fall there with a sigh</strong><br>
-<strong>夏天的飞鸟，飞到我窗前唱歌，又飞去了。</strong><br>
+<strong>夏天的飞鸟，飞到我的窗前唱歌，又飞去了。</strong><br>
 <strong>秋天的黄叶，它们没有什么可唱，只叹息一声，飞落在那里。</strong></p>
 ]]></content>
     </entry>
