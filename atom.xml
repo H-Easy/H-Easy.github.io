@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://h-easy.github.io/</id>
+    <id>https://h-easy.github.io</id>
     <title>Easy</title>
-    <updated>2021-06-28T01:35:04.384Z</updated>
+    <updated>2021-06-28T01:36:43.973Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://h-easy.github.io/"/>
+    <link rel="alternate" href="https://h-easy.github.io"/>
     <link rel="self" href="https://h-easy.github.io/atom.xml"/>
     <subtitle>海阔凭鱼跃，天高任鸟飞。</subtitle>
     <logo>https://h-easy.github.io/images/avatar.png</logo>
